@@ -97,18 +97,18 @@ td {
     }
     
     /* Arrow Positioning */
-    .arrow1 { grid-area: 1/1/2/2; }
-    .arrow2 { grid-area: 1/2/2/3; }
-    .arrow3 { grid-area: 1/3/2/4; }
+    .arrow1 { grid-area: 4/1/4/2; }
+    .arrow2 { grid-area: 5/1/5/2; }
+    .arrow3 { grid-area: 6/1/6/2; }
     
     /* Bar Positioning */
-    .bar1 { grid-area: 2/1/3/2; }
-    .bar2 { grid-area: 2/2/3/3; }
-    .bar3 { grid-area: 2/3/3/4; }
+    .bar1 { grid-area: 4/2/5/8; }
+    .bar2 { grid-area: 5/2/6/8; }
+    .bar3 { grid-area: 6/2/7/8; }
     
     /* Header Positioning */
     h1 {
-        grid-area: 3/6/3/9;
+        grid-area: 1/6/1/9;
         margin-top: 0px;
         text-align: right;
         font-size: 1.2rem;
@@ -116,12 +116,12 @@ td {
     
     /* Contact Info Positioning */
     .tel {
-        grid-area: 1/7/1/9;
+        grid-area: 2/7/2/9;
         text-align: right;
     }
     
     .email {
-        grid-area: 2/7/2/9;
+        grid-area: 3/7/3/9;
         text-align: right;
     }
     
