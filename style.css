@@ -100,11 +100,19 @@ td {
     .arrow1 { grid-area: 4/1/4/2; }
     .arrow2 { grid-area: 5/1/5/2; }
     .arrow3 { grid-area: 6/1/6/2; }
+
+    .arrow1, .arrow2, .arrow3 {
+        display: none;
+    }
     
     /* Bar Positioning */
     .bar1 { grid-area: 4/2/5/8; }
     .bar2 { grid-area: 5/2/6/8; }
     .bar3 { grid-area: 6/2/7/8; }
+
+    .bar1, .bar2, .bar3 {
+        display:none;
+    }
     
     /* Header Positioning */
     h1 {
