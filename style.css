@@ -93,20 +93,20 @@ td {
 
     .left {
         display: grid;
-        grid-template-columns: 10px, repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: 10px repeat(2, 1fr);
+        grid-template-rows: repeat(3, 23px) repeat(3, 1fr);
         width: 100%;
     }
     
     /* Arrow Positioning */
-    .arrow1 { grid-area: 4/1/4/2; }
-    .arrow2 { grid-area: 5/1/5/2; }
-    .arrow3 { grid-area: 6/1/6/2; }
+    .arrow1 { grid-area: 4/1/5/2; }
+    .arrow2 { grid-area: 5/1/6/2; }
+    .arrow3 { grid-area: 6/1/7/2; }
 
     /* Bar Positioning */
-    .bar1 { grid-area: 4/2/5/8; }
-    .bar2 { grid-area: 5/2/6/8; }
-    .bar3 { grid-area: 6/2/7/8; }
+    .bar1 { grid-area: 4/2/5/3; }
+    .bar2 { grid-area: 5/2/6/3; }
+    .bar3 { grid-area: 6/2/7/3; }
     
     h1 {
         grid-area: 1/6/1/9;
@@ -117,7 +117,7 @@ td {
     
     /* Contact Info Positioning */
     .tel {
-        grid-area: 2/7/2/9;
+        grid-area: 2/3/2/9;
         text-align: right;
     }
     
