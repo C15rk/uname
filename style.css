@@ -1,0 +1,73 @@
+h1 {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #F0F1EC;
+    margin-right: 0px;
+}
+
+.container {
+    display: grid;
+    /* width: 748px;
+    height: 748px; */
+
+    grid-template-columns: 1fr 3fr;
+    /* grid-template-rows: ; */
+}
+
+h3 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.left p {
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.left {
+    margin-right: 20px;
+}
+
+.blank {
+    margin-top: 88.88px;
+}
+
+.right {
+    min-width: 500px;
+}
+
+a {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size:medium;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.infor p {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: medium;
+}
+
+table {
+    border-collapse: collapse;
+    /* table-layout: auto;
+    height: auto; */
+    border-spacing: 10px; /* 设置单元格之间的间距 */
+    width: 100%;
+}
+
+td {
+    border-top: 1px solid #e8c70a;
+    padding: 5px 0px; /* 为单元格添加内边距 */
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+.infor {
+    display: none;
+    padding-right: 20px;
+}
