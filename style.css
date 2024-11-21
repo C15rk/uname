@@ -75,11 +75,23 @@ td {
     padding-right: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media  (max-width: 768px) {
+   
     .container {
-        flex-direction: column; /* 垂直排列 */
-        padding: 10px;
+        /* display: block; 改为块级显示 */
+        grid-template-columns: 1fr !important; /* 取消原有的grid布局 */
     }
+    
+    .left {
+        display: flex;
+        grid-column: 1 !important; /* 完全隐藏左侧区域 */
+    }
+    
+    .right {
+        grid-column: 1 !important;
+        /* width: 100%; 右侧区域占满全宽 */
+    }
+    
 }
 
 .mobiel {
