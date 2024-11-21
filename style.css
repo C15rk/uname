@@ -4,6 +4,8 @@ h1 {
 }
 
 body {
+    font-family: 'Noto Sans SC', sans-serif;
+
     background-color: #F0F1EC;
     margin-right: 0px;
 }
@@ -23,7 +25,8 @@ h3 {
 }
 
 .left p {
-    font-weight: bold;
+    font-family: 'Noto Sans SC', sans-serif;
+    /* font-weight: bold; */
     margin-top: 2px;
     margin-bottom: 2px;
 }
@@ -36,9 +39,9 @@ h3 {
     margin-top: 88.88px;
 }
 
-.right {
+/* .right {
     min-width: 500px;
-}
+} */
 
 a {
     font-family: 'Noto Sans SC', sans-serif;
@@ -70,4 +73,15 @@ td {
 .infor {
     display: none;
     padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* 垂直排列 */
+        padding: 10px;
+    }
+}
+
+.mobiel {
+    font-family: 'Noto Sans SC', sans-serif;
 }
